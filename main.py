@@ -1,10 +1,15 @@
 # Python Banking Program
 
 def show_balance():
-    pass
+    print(f"Your balance is ${balance:.2f}")
 
 def deposit():
-    pass
+    amount = float(input("Enter an amount to be deposit: "))
+
+    if amount < 0:
+        print("That's not a valid amount!")
+    else:
+        return
 
 def withdraw():
     pass
